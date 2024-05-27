@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Sharpie;
+    src: url(fonts/Sharpie-Light.otf) format("opentype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Sharpie;
+    src: url(fonts/Sharpie-Regular.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Sharpie;
+    src: url(fonts/Sharpie-Bold.otf) format("opentype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Sharpie;
+    src: url(fonts/Sharpie-Extrabold.otf) format("opentype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Sharpie;
+    src: url(fonts/Sharpie-Black.otf) format("opentype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: Arial-C;
+    src: url(fonts/arlrdbd.ttf) format('truetype');
+    font-weight: 100;
+}

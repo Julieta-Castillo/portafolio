@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../font/font.css">
+    <title>SOBRE MI</title>
+    <style>
+        body {
+            margin: 0;
+            width: 100%;
+            font-family: Arial-C;
+            display: flex;
+            background-color: #cad2c5;
+        }
+
+        aside {
+            background-color: #52796f;
+            min-width: 10%;
+            min-height: 100vh;
+        }
+
+        main {
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        section {
+            box-sizing: border-box;
+            display: block;
+            min-width: 700px;
+            max-width: 60%;
+            padding: 0 2rem;
+        }
+
+        section h1 {
+            font-family: Sharpie;
+            font-weight: 900;
+            margin: 0;
+            padding: 1rem;
+            font-size: 6rem;
+            color: #2f3e46;
+        }
+
+        section p {
+            color: #52796f;
+            text-wrap: pretty;
+            font-size: 1.2rem;
+        }
+
+        .boton {
+            margin: 3rem;
+            text-align: center;
+        }
+
+        button {
+            background-color: #354f52;
+            font-weight: 800;
+            font-family: Sharpie;
+            font-size: 3rem;
+            border-radius: 20px;
+            width: 24rem;
+            height: 6rem;
+            transition: transform .4s;
+        }
+
+        button a {
+            display: block;
+            color: #84a98c;
+            text-decoration: none;
+            transition: transform .4s;
+        }
+
+        a:hover {
+            transform: scale(1.2);
+        }
+
+        button:hover {
+            transform: scale(.95);
+        }
+
+        img {
+            max-width: 260px;
+            object-fit: contain;
+            margin: 3rem;
+        }
+
+        @media screen and (max-width: 900px) {
+            body {
+                flex-direction: column;
+            }
+
+            aside {
+                min-width: 100%;
+                min-height: 90px;
+            }
+
+            section {
+                padding: 4rem 0rem;
+                min-width: 100px;
+            }
+
+            .boton {
+                margin: 0;
+            }
+
+
+        }
+
+        @media screen and (max-width: 426px) {
+
+            main {
+                text-align: center;
+            }
+
+            section {
+                max-width: 90%;
+                padding: 4rem 0rem;
+            }
+
+            .contenido {
+                padding: 2rem 0;
+            }
+
+            section h1 {
+                text-align: center;
+                padding: 1rem;
+                font-size: 3rem;
+            }
+
+            .section__contenido p {
+                padding: 1rem;
+            }
+
+            .boton {
+                margin: 2rem 0;
+            }
+
+            button {
+                width: 18rem;
+                height: 4rem;
+                font-size: 2rem;
+            }
+
+            img {
+                margin: 0  3rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <aside>
+    </aside>
+    <main>
+        <section class="contenido">
+            <h1>SOBRE MI...</h1>
+            <p>
+                Hola, soy Juls, tengo 20 años y actualmente soy estudiante de Diseño de la
+                Comunicación Gráfica en la UAM Azcapotzalco. Mi intención es comenzar a dar a
+                conocer mi trabajo y comenzar con mi vida profesional. A lo largo de mi vida he
+                adquirido experiencia en medios artísticos y audiovisuales, gracias a la carrera que
+                actualmente curso he podido pulir y encaminar mis conocimientos y habilidades y
+                será un gusto poder trabajar en un producto de diseño con usted.
+                <br>Algunas de mis influencias en mi trabajo han sido por parte de ilustradores como
+                Mike Sandoval y el Dee, quienes han influido en mi estilo de ilustración.
+            </p>
+            <div class="boton">
+                <button>
+                    <a href="../index.html">INICIO</a>
+                </button>
+            </div>
+        </section>
+        <img src="../img/SOBRE MI ILUS.png" alt="">
+    </main>
+
+
+</body>
+
+</html>
